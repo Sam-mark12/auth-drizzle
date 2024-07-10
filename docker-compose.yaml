@@ -1,0 +1,12 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: my_postgres_containerx
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: test
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+    volumes:
+      - ../cache:/var/lib/postgresql/data

@@ -1,12 +1,8 @@
 import React from 'react'
-import Login from './auth/login/page'
 
 const page = () => {
   return (
-    <>
-
-    <Login />
-    </>
+    <div>hello welcome u r authenticated successfully</div>
   )
 }
 
